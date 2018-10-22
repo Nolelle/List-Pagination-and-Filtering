@@ -33,7 +33,7 @@ let studentJoined= document.querySelectorAll('.joined-details');
 // }
 // var result = hideItems(44);
 // //console.log(result);
-
+//test
 const showPage = (list, page) => {
   for (let i = 0; i >= list.length; i++) {
     if (i >= list[i]  && i <= list[i]) {// if the index of a list item is >= the index of the first item that should be shown on the page, && the list item index is <= the index of the last item that should be shown on the page,

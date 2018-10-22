@@ -11,8 +11,8 @@ let studentJoined= document.querySelectorAll('.joined-details');
 
 //let child = studentList.childNodes;
 //console.log (child);
-// console.log(studentList);
-// console.log(studentItem);
+//console.log(studentList);
+//console.log(studentItem);
 // console.log(studentDetails);
 // console.log(studentJoined);
 
@@ -34,9 +34,9 @@ let studentJoined= document.querySelectorAll('.joined-details');
 // var result = hideItems(44);
 // //console.log(result);
 //test
-const showPage = (list, page) => {
-  for (let i = 0; i >= list.length; i++) {
-    if (i >= list[i]  && i <= list[i]) {// if the index of a list item is >= the index of the first item that should be shown on the page, && the list item index is <= the index of the last item that should be shown on the page,
+const showPage = (list, firstItem, lastItem) => {
+  for (let i = 0; i <= list.length; i++) {
+    if (list[i] >= firstItem  && list[i] <= lastItem) {// if the index of a list item is >= the index of the first item that should be shown on the page, && the list item index is <= the index of the last item that should be shown on the page,
       return list;
     } else {
 

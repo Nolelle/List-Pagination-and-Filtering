@@ -38,7 +38,11 @@ var result = hideItems(52);
 
 
 // Create and append the pagination links - Creating a function that can do this is a good approach
-
+const appendPageLinks = (list) => {
+  let pages = list.length / 10; // divides number of items in list by 10 to determine how many pages we will need.
+  let div = document.querySelector('')
+  let uk
+}
 
 
 

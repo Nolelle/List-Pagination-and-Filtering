@@ -30,7 +30,7 @@ function hideItems (number) {
        parent[i] = parent.removeChild(child);
     }
 
-    return parent;
+    return parent;bg
 }
 
 var result = hideItems(52);
@@ -41,7 +41,8 @@ var result = hideItems(52);
 const appendPageLinks = (list) => {
   let pages = list.length / 10; // divides number of items in list by 10 to determine how many pages we will need.
   let div = document.querySelector('')
-  let uk
+  let ul =
+   let document.getElementById("button ").addEventListener("click", displayDate);
 }
 
 

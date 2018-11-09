@@ -39,9 +39,10 @@ div.className = "pagination";
 let pageDiv = document.querySelector('.page')
 pageDiv.appendChild(div);
 
-  for (var i = 1; i <= pages; i++) { //create dive, ul,li, and a elements for pagination.
+let ul = document.createElement('ul');
 
-    let ul = document.createElement('ul');
+  for (var i = 1; i <= pages; i++) { //create li, and a elements for pagination.
+
     div.appendChild(ul);
 
     let li = document.createElement('li');
@@ -65,7 +66,8 @@ pageDiv.appendChild(div);
     });
   }
   }
-appendPageLinks(55);
+appendPageLinks(studentItem.length); //added parameter so that function will create the appropiate amount of links. 
+console.log(studentItem.length);
 
 // Add functionality to the pagination buttons so that they show and hide the correct items
 // Tip: If you created a function above to show/hide list items, it could be helpful here
